@@ -57,20 +57,28 @@ frontend/
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd frontend
+```
 
-2. Install Dependencies
+## 🔹2. Install Dependencies
+```
 npm install
+```
 
-🔹 3. Start Development Server
+## 🔹 3. Start Development Server
+```
 npm run dev
+```
 
 
 👉 Runs at http://localhost:5173
 
-🔹 4. Build for Production
+## 🔹 4. Build for Production
+```
 npm run build
+```
 
-🔹 5. Preview Production Build
+## 🔹 5. Preview Production Build
+```
 npm run preview
 
 ```
