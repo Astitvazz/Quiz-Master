@@ -1,40 +1,50 @@
-🏆 Quiz Master
+# 🏆 Quiz Master  
 
-## 🚀 Live Demo  
-[Click Here to Play the Quiz 🎮](https://your-live-link.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://dh5uaxfjzwbbq.cloudfront.net/
+)
 
-An interactive quiz app built with React.js + Vite 🎯
-Answer 10 timed questions ⏳, test your knowledge, and get instant results with a clean & modern UI.
+An **interactive quiz app** built with **React.js + Vite** 🎯  
+Answer **10 timed questions** ⏳, test your knowledge, and get instant results with a clean & modern UI.  
 
-✨ Features
+---
 
-✅ Choose difficulty level – Easy | Medium | Hard
-✅ 10 Questions per quiz
-✅ 30 Seconds timer for each question
-✅ Live score tracking & progress bar
-✅ Previous / Next navigation
-✅ Detailed Results Page with correct vs wrong answers
-✅ Responsive & modern UI (TailwindCSS + Lucide Icons)
-✅ Fetches data from Open Trivia Database
+## ✨ Features  
 
-📂 Project Structure
+✅ Choose **difficulty level** – Easy | Medium | Hard  
+✅ **10 Questions** per quiz  
+✅ **30 Seconds timer** for each question  
+✅ Live **score tracking & progress bar**  
+✅ **Previous / Next navigation**  
+✅ **Detailed Results Page** with correct vs wrong answers  
+✅ **Responsive & modern UI** (TailwindCSS + Lucide Icons)  
+✅ Fetches data from **[Open Trivia Database](https://opentdb.com/)**  
+
+---
+
+## 📂 Project Structure  
+
 frontend/
 ├── src/
-│   ├── components/       # Navbar, Footer
-│   ├── pages/            # EntryCard, QuestionPage, ShowResults
-│   ├── App.jsx           # Main routes + state management
-│   ├── main.jsx          # Vite entry point
-│   └── App.css           # Styles
-├── public/               # Static assets
+│ ├── components/ # Navbar, Footer
+│ ├── pages/ # EntryCard, QuestionPage, ShowResults
+│ ├── App.jsx # Main routes + state management
+│ ├── main.jsx # Vite entry point
+│ └── App.css # Styles
+├── public/ # Static assets
 ├── package.json
 └── vite.config.js
 
-⚙️ Installation & Setup
-🔹 1. Clone Repository
-git clone https://github.com/Astitvazz/Quiz-Master.git
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 🔹 1. Clone Repository  
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
 cd frontend
 
-🔹 2. Install Dependencies
+2. Install Dependencies
 npm install
 
 🔹 3. Start Development Server
@@ -72,9 +82,6 @@ Entry Page	Quiz Page	Results Page
 
 🎭 Lucide React Icons
 
-## 👨‍💻 Author  
+👨‍💻 Author
 
-**Astitva Sharma**  
-
-- [🔗 LinkedIn](https://www.linkedin.com/in/astitva-sharma-012b4b252/)  
-- [💻 GitHub](https://github.com/Astitvazz)
+Astitva Sharma
