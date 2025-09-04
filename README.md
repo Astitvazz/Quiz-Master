@@ -22,30 +22,18 @@ Answer **10 timed questions** ⏳, test your knowledge, and get instant results 
 ---
 
 ## 📂 Project Structure  
-
+```
 frontend/
-├── node_modules/
-├── public/
-│   └── vite.svg
 ├── src/
-│   ├── components/
-│   │   ├── Footer.jsx
-│   │   └── Navbar.jsx
-│   ├── pages/
-│   │   ├── EntryCard.jsx
-│   │   ├── QuestionPage.jsx
-│   │   └── ShowResults.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .gitignore
-├── index.html
-├── package-lock.json
+│   ├── components/       # Navbar, Footer
+│   ├── pages/            # EntryCard, QuestionPage, ShowResults
+│   ├── App.jsx           # Main routes + state management
+│   ├── main.jsx          # Vite entry point
+│   └── App.css           # Styles
+├── public/               # Static assets
 ├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── vite.config.js
+└── vite.config.js
+```
 
 
 
