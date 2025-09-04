@@ -1,12 +1,80 @@
-# React + Vite
+🏆 Quiz Master
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo  
+[Click Here to Play the Quiz 🎮](https://your-live-link.com)
 
-Currently, two official plugins are available:
+An interactive quiz app built with React.js + Vite 🎯
+Answer 10 timed questions ⏳, test your knowledge, and get instant results with a clean & modern UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## Expanding the ESLint configuration
+✅ Choose difficulty level – Easy | Medium | Hard
+✅ 10 Questions per quiz
+✅ 30 Seconds timer for each question
+✅ Live score tracking & progress bar
+✅ Previous / Next navigation
+✅ Detailed Results Page with correct vs wrong answers
+✅ Responsive & modern UI (TailwindCSS + Lucide Icons)
+✅ Fetches data from Open Trivia Database
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 Project Structure
+frontend/
+├── src/
+│   ├── components/       # Navbar, Footer
+│   ├── pages/            # EntryCard, QuestionPage, ShowResults
+│   ├── App.jsx           # Main routes + state management
+│   ├── main.jsx          # Vite entry point
+│   └── App.css           # Styles
+├── public/               # Static assets
+├── package.json
+└── vite.config.js
+
+⚙️ Installation & Setup
+🔹 1. Clone Repository
+git clone https://github.com/Astitvazz/Quiz-Master.git
+cd frontend
+
+🔹 2. Install Dependencies
+npm install
+
+🔹 3. Start Development Server
+npm run dev
+
+
+👉 Runs at http://localhost:5173
+
+🔹 4. Build for Production
+npm run build
+
+🔹 5. Preview Production Build
+npm run preview
+
+🎮 How to Play
+
+1️⃣ Select a difficulty (Easy / Medium / Hard)
+2️⃣ Click Start Quiz ⚡
+3️⃣ Answer each question within 30s ⏳
+4️⃣ Use Next / Previous to navigate
+5️⃣ Submit & see your score breakdown 🎉
+
+📸 Screenshots
+Entry Page	Quiz Page	Results Page
+(Add Screenshot)	(Add Screenshot)	(Add Screenshot)
+🛠️ Tech Stack
+
+⚛️ React.js (Vite)
+
+🎨 TailwindCSS
+
+🔄 React Router v6
+
+📡 Axios (API calls)
+
+🎭 Lucide React Icons
+
+## 👨‍💻 Author  
+
+**Astitva Sharma**  
+
+- [🔗 LinkedIn](https://www.linkedin.com/in/astitva-sharma-012b4b252/)  
+- [💻 GitHub](https://github.com/Astitvazz)
