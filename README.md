@@ -70,6 +70,42 @@ npm run build
 npm run preview
 
 ```
+## 🏗️ Architecture  
+
+The project follows a **component-based architecture** using **React + Vite** for fast development and modular code.  
+
+- **React Router v6** → Handles navigation between pages (`EntryCard`, `QuestionPage`, `ShowResults`)  
+- **Component-based structure** → Reusable UI parts like `Navbar`, `Footer`  
+- **State management (useState + props)** → Quiz state (score, current question, difficulty) is stored in the parent (`App.jsx`) and passed down  
+- **API Layer (Axios)** → Fetches quiz questions from [Open Trivia Database](https://opentdb.com/)  
+- **TailwindCSS** → Utility-first styling for responsiveness  
+- **Lucide Icons** → Lightweight icons for clean UI  
+
+---
+
+## 🧠 Design Decisions  
+
+1. **Vite instead of CRA** ⚡  
+   - Chosen for **faster build times**, lightweight bundling, and modern ES6 support.  
+
+2. **Component Splitting** 🧩  
+   - Pages are separated (`EntryCard`, `QuestionPage`, `ShowResults`) for **readability and reusability**.  
+   - Common UI elements (`Navbar`, `Footer`) are isolated into `components/`.  
+
+3. **State Management in Parent** 🎯  
+   - Quiz logic (score, timer, current index) is kept in `App.jsx` → avoids prop-drilling issues across multiple components.  
+
+4. **Timer per Question** ⏳  
+   - Each question is limited to **30 seconds** → prevents idle waiting and makes quiz more engaging.  
+
+5. **Responsive UI with TailwindCSS** 📱  
+   - Chosen to ensure quiz works on **desktop, tablet, and mobile** without writing custom media queries.  
+
+6. **API-driven Questions** 🌍  
+   - Dynamic questions from Open Trivia DB ensure **fresh quizzes** every play, rather than hardcoding data.  
+
+---
+
 ## 🎮 How to Play
 
 1️⃣ Select a difficulty (Easy / Medium / Hard)
