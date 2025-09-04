@@ -24,15 +24,29 @@ Answer **10 timed questions** ⏳, test your knowledge, and get instant results 
 ## 📂 Project Structure  
 
 frontend/
+├── node_modules/
+├── public/
+│   └── vite.svg
 ├── src/
-│ ├── components/ # Navbar, Footer
-│ ├── pages/ # EntryCard, QuestionPage, ShowResults
-│ ├── App.jsx # Main routes + state management
-│ ├── main.jsx # Vite entry point
-│ └── App.css # Styles
-├── public/ # Static assets
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── pages/
+│   │   ├── EntryCard.jsx
+│   │   ├── QuestionPage.jsx
+│   │   └── ShowResults.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── index.html
+├── package-lock.json
 ├── package.json
-└── vite.config.js
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+
 
 
 ---
@@ -59,17 +73,31 @@ npm run build
 🔹 5. Preview Production Build
 npm run preview
 
+```
 🎮 How to Play
 
 1️⃣ Select a difficulty (Easy / Medium / Hard)
 2️⃣ Click Start Quiz ⚡
 3️⃣ Answer each question within 30s ⏳
 4️⃣ Use Next / Previous to navigate
-5️⃣ Submit & see your score breakdown 🎉
+5️⃣ Submit & see your score breakdown 🎉## 🎮 How to Play  
 
-📸 Screenshots
-Entry Page	Quiz Page	Results Page
-(Add Screenshot)	(Add Screenshot)	(Add Screenshot)
+1️⃣ Select a **difficulty** (Easy / Medium / Hard)  
+2️⃣ Click **Start Quiz** ⚡  
+3️⃣ Answer each question within **30s** ⏳  
+4️⃣ Use **Next / Previous** to navigate  
+5️⃣ Submit & see your **score breakdown** 🎉  
+
+---
+
+## 👨‍💻 Author  
+
+**Astitva Sharma**  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/astitva-sharma-012b4b252/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Astitvazz)  
+
+
 🛠️ Tech Stack
 
 ⚛️ React.js (Vite)
@@ -82,6 +110,6 @@ Entry Page	Quiz Page	Results Page
 
 🎭 Lucide React Icons
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Astitva Sharma
