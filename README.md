@@ -74,7 +74,7 @@ npm run build
 npm run preview
 
 ```
-🎮 How to Play
+## 🎮 How to Play
 
 1️⃣ Select a difficulty (Easy / Medium / Hard)
 2️⃣ Click Start Quiz ⚡
@@ -88,17 +88,10 @@ npm run preview
 4️⃣ Use **Next / Previous** to navigate  
 5️⃣ Submit & see your **score breakdown** 🎉  
 
----
-
-## 👨‍💻 Author  
-
-**Astitva Sharma**  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/astitva-sharma-012b4b252/)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Astitvazz)  
+---  
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ⚛️ React.js (Vite)
 
@@ -110,6 +103,9 @@ npm run preview
 
 🎭 Lucide React Icons
 
-##👨‍💻 Author
+## 👨‍💻 Author  
 
-Astitva Sharma
+**Astitva Sharma**  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/astitva-sharma-012b4b252/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Astitvazz)
