@@ -29,7 +29,7 @@ function ShowResults({score,questions,userAnswers,setTimerActive,setError,setGam
   };
   return (
     <div>
-         <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4">
+         <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4 pt-20">
         <div className="max-w-4xl mx-auto">
           {/* Results Header */}
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 mb-6 text-center shadow-2xl border border-white/20">
